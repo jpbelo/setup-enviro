@@ -1,4 +1,4 @@
-## parts
+## PARTS
 1. package control (ctrl shift p - install package control)
 2. color highlighter 
 3. insert nums - james brooks
