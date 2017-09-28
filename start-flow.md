@@ -100,7 +100,6 @@ httpd -v
 
 
 
-2017-09-28T16:51:06.251216Z 1 [Note] A temporary password is generated for root@localhost: 1wK.to?nLgYS
 
 
 3. open codekit, and setup the settings for the new projects ( File > Edit Defaults For New Projects - cmd + D )
