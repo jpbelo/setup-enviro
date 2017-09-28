@@ -24,6 +24,7 @@
 20. AppZapper (dev folder)
 22. Hocus Pocus (dev folder)
 23. [MySQL](https://dev.mysql.com/downloads/mysql/)
+24. ``git`` in terminal to download dev tools
 
 ## in browser
 
