@@ -31,16 +31,16 @@
    4. change permissions - sudo chmod 644 username.conf
 7. edit http.conf - sudo nano /etc/apache2/httpd.conf
    1. make sure these modules are uncommented (the first 2 should already be on a clean install):
-      1. LoadModule authz_core_module libexec/apache2/mod_authz_core.so
-      2. LoadModule authz_host_module libexec/apache2/mod_authz_host.so
-      3. LoadModule userdir_module libexec/apache2/mod_userdir.so
-      4. LoadModule include_module libexec/apache2/mod_include.so
-      5. LoadModule rewrite_module libexec/apache2/mod_rewrite.so
+      1. ``LoadModule authz_core_module libexec/apache2/mod_authz_core.so``
+      2. ``LoadModule authz_host_module libexec/apache2/mod_authz_host.so``
+      3. ``LoadModule userdir_module libexec/apache2/mod_userdir.so``
+      4. ``LoadModule include_module libexec/apache2/mod_include.so``
+      5. ``LoadModule rewrite_module libexec/apache2/mod_rewrite.so``
    2. also to get php running uncomment
-      1. LoadModule php5_module libexec/apache2/libphp5.so
-      2. or, in my case LoadModule php7_module libexec/apache2/libphp7.so
-   3. also uncomment this configuration file:
-      1. Include /private/etc/apache2/extra/httpd-userdir.conf
+      1. ``LoadModule php5_module libexec/apache2/libphp5.so``
+      2. or, in case you are using High Sierra - ``LoadModule php7_module libexec/apache2/libphp7.so``
+   3. also uncomment this configuration file:
+      1. ``Include /private/etc/apache2/extra/httpd-userdir.conf``
 8. edit httpd-userdir.conf - sudo nano /etc/apache2/extra/httpd-userdir.conf
    1. uncomment this: Include /private/etc/apache2/users/*.conf
 9. restart apache - sudo apachectl restart
