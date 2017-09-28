@@ -12,7 +12,7 @@
 8. [Spectacle](https://www.spectacleapp.com)
 9. [Typora](https://typora.io)
 10. CopyClip 2 (MAS)
-11. Caffeine
+11. Caffeine (dev folder)
 12. [MagicPrefs](http://magicprefs.com)
 13. Shazam (MAS)
 14. [Sketch](https://www.sketchapp.com)
@@ -21,6 +21,9 @@
 17. [Zeplin](https://zeplin.io)
 18. [VirtualBox](https://www.virtualbox.org)
 19. [Transmission](https://transmissionbt.com)
+20. AppZapper (dev folder)
+22. Hocus Pocus (dev folder)
+
 
 ## in browser
 
