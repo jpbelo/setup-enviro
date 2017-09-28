@@ -18,7 +18,7 @@
          2. minify output with UglifyJS off
       2. CSS
          1. style compact
-4. install Homebrew - ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" ( use brew up to update)
+4. install Homebrew - ``ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`` ( use ``brew up`` to update)
 5. install dnsmasq - brew install dnsmasq
 6. create user conf
    1. cd /etc/apache2/users
