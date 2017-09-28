@@ -23,7 +23,7 @@
 19. [Transmission](https://transmissionbt.com)
 20. AppZapper (dev folder)
 22. Hocus Pocus (dev folder)
-
+23. [MySQL](https://dev.mysql.com/downloads/mysql/)
 
 ## in browser
 
