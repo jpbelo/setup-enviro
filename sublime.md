@@ -8,6 +8,9 @@
 ## SETTINGS
 ```
 {
+	"predawn_tabs_active_underline": true,
+	"predawn_tabs_medium": true,
+	"theme": "predawn-DEV.sublime-theme",
 	"caret_extra_width": 2,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
