@@ -26,8 +26,9 @@
 23. [MySQL](https://dev.mysql.com/downloads/mysql/)
 24. ``git`` in terminal to download dev tools
 25. [Sequel Pro](https://www.sequelpro.com)
-26. [Yarn](https://yarnpkg.com)
+26. [Yarn](https://yarnpkg.com) (to replace bower)
 27. [Grunt](https://gruntjs.com)
+28. [Yeoman](http://yeoman.io)
 
 ## in browser
 
