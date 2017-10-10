@@ -4,6 +4,10 @@
 3. insert nums - james brooks
 4. predawn
 5. brackethighlighter
+6. Babel
+7. Sublime-linter
+8. SublimeLinter-contrib-eslint
+9. SublimeLinter-contrib-stylelint
 
 ## SETTINGS
 ```
