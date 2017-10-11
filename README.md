@@ -3,7 +3,7 @@
 ## tools
 
 1. [Dropbox](https://www.dropbox.com) (start with because the sync takes time)
-2. Sublime text
+2. Sublime text - update to [Atom](https://atom.io)
 3. [Codekit](https://codekitapp.com)
 4. Transmit (MAS)
 5. [git-fork](https://git-fork.com)
