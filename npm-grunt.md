@@ -36,7 +36,7 @@ create the Gruntfile.js file
 
 
 Just compile the main.styl and have the other styl files required inside the styl file in the order you want.
-The watch tracks all of them but but allways compiles from the main.styl.
+The watch tracks all of them but allways compiles from the main.styl file.
 
 ```
 module.exports = function (grunt) {
