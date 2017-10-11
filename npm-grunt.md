@@ -15,13 +15,17 @@ install grunt command line interface globally
 npm install -g grunt-cli
 ```
 
-**inside the project folder**
+**(now, inside the project folder)**
+
 initialize npm to create jackage.json
 ``npm init``
 
 install grunt for the project (-S for adding the dependencies)
+
 ``npm install -S grunt``
-crete the Gruntfile.js file
+
+create the Gruntfile.js file
+
 ``touch Gruntfile.js``
 
 
@@ -30,8 +34,9 @@ crete the Gruntfile.js file
 2. watch - ``npm install grunt-contrib-watch --save-dev``
 3. stylus - ``npm install grunt-contrib-stylus --save-dev``
 
-Just compile the main.styl and have the other styl required in the order you want inside the styl file.
-Keep a watch for every styl file but allways compile the main.
+
+Just compile the main.styl and have the other styl files required inside the styl file in the order you want.
+The watch tracks all of them but but allways compiles from the main.styl.
 
 ```
 module.exports = function (grunt) {
