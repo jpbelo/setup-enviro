@@ -1,4 +1,4 @@
-# setup environnment for web development
+# setup environment for web development
 
 ## Dev Apps
 
