@@ -11,6 +11,7 @@
     2. linter-jscs (by AtomLinter) - good practices beautiful code
 8. atom-beautify
 9. highligted selected (by richrace)
+10. stylus-language (by callisto2410)
 
 
 ## Honorable mentions
