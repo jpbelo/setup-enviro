@@ -10,7 +10,7 @@ node -v
 npm -v
 ```
 
-install grunt command line interface
+install grunt command line interface globally
 ```
 npm install -g grunt-cli
 ```
