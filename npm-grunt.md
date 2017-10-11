@@ -26,7 +26,50 @@ crete the Gruntfile.js file
 
 
 ## usefull grunt plugins:
-1. contrib-concat
-2. contrib-watch
+1. concat - ``npm install grunt-contrib-concat --save-dev``
+2. watch - ``npm install grunt-contrib-watch --save-dev``
+3. stylus - ``npm install grunt-contrib-stylus --save-dev``
 
+Just compile the main.styl and have the other styl required in the order you want inside the styl file.
+Keep a watch for every styl file but allways compile the main.
 
+```
+module.exports = function (grunt) {
+
+  grunt.initConfig({
+    watch: {
+      scripts: {
+        files: ['assets/scripts/*.js'],
+        tasks: ['concat:js'],
+      },
+      styles: {
+        files: ['assets/styles/*.styl'],
+        tasks: ['stylus'],
+      },
+    },
+    concat: {
+      js: {
+        src: ['assets/scripts/*.js'],
+        dest: 'build/scripts.js',
+      },
+    },
+    stylus: {
+      compile: {
+        options: {
+          paths: ['assets/styles'],
+        },
+        files: {
+          'build/styles.css': 'assets/styles/main.styl',
+        },
+      },
+    },
+
+  });
+
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-stylus');
+  grunt.registerTask('default', ['stylus', 'concat', 'watch']);
+
+};
+```
