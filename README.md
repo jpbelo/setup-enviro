@@ -27,7 +27,7 @@
 
 1. Git
 2. [Yarn](https://yarnpkg.com) (to replace bower)
-3. [Nodejs](https://nodejs.org/en/) (npm inside)
+3. [Nodejs and NPM](https://nodejs.org/en/)
 4. [Grunt](https://gruntjs.com)
 5. [Yeoman](http://yeoman.io)
 
