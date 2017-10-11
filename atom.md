@@ -10,8 +10,9 @@
     1. linter-jshint (by AtomLinter) - serious js errors
     2. linter-jscs (by AtomLinter) - good practices beautiful code
 8. atom-beautify
-
+9. highligted selected (by richrace)
 
 
 ## Honorable mentions
-1. ask-stack (by Chris911) - I really dont us
+1. ask-stack (by Chris911) - stack overflow inside atom
+
