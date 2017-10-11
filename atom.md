@@ -7,4 +7,6 @@
 5. minimap
 6. pigments (and minimap-pigments)
 7. linter (by steelbrain)
-8. linter-jshint
+  1. linter-jshint (by AtomLinter)
+  2. linter-jscs (by AtomLinter)
+
