@@ -33,7 +33,8 @@ create the Gruntfile.js file
 1. concat - ``npm install grunt-contrib-concat --save-dev``
 2. watch - ``npm install grunt-contrib-watch --save-dev``
 3. stylus - ``npm install grunt-contrib-stylus --save-dev``
-
+4. qunit - ``npm install grunt-contrib-qunit --save-dev``
+5. jshint - ``npm install grunt-contrib-jshint --save-dev``
 
 Just compile the main.styl and have the other styl files required inside the styl file in the order you want.
 The watch tracks all of them but allways compiles from the main.styl file.
@@ -68,13 +69,33 @@ module.exports = function (grunt) {
         },
       },
     },
+    qunit: {
+      files: ['test/**/*.html']
+    },
+    jshint: {
+      files: ['Gruntfile.js', 'src/**/*.js', 'test/**/*.js'],
+      options: {
+        globals: {
+          jQuery: true,
+          console: true,
+          module: true,
+          document: true
+        }
+      }
+    },
 
-  });
+});
 
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-stylus');
+  
+  grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-qunit');
+  
   grunt.registerTask('default', ['stylus', 'concat', 'watch']);
+
+  grunt.registerTask('test', ['jshint', 'qunit']);
 
 };
 ```
