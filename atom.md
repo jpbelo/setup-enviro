@@ -7,6 +7,11 @@
 5. minimap
 6. pigments (and minimap-pigments)
 7. linter (by steelbrain)
-    1. linter-jshint (by AtomLinter)
-    2. linter-jscs (by AtomLinter)
+    1. linter-jshint (by AtomLinter) - serious js errors
+    2. linter-jscs (by AtomLinter) - good practices beautiful code
+8. atom-beautify
 
+
+
+## Honorable mentions
+1. ask-stack (by Chris911) - I really dont us
