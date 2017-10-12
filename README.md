@@ -4,13 +4,14 @@
 
 1. [Dropbox](https://www.dropbox.com) (start with because the sync takes time)
 2. Transmit (MAS)
-3. [Atom](https://atom.io) (to replace sublime)
-4. [Typora](https://typora.io) (MD editor)
-5. [Git-fork](https://git-fork.com)
-6. 1password (MAS)
-7. Slack (MAS)
-8. [Sequel Pro](https://www.sequelpro.com)
-9. [MySQL](https://dev.mysql.com/downloads/mysql/)
+3. [Atom](https://atom.io)
+4. [Sublime Text](https://www.sublimetext.com)
+5. [Typora](https://typora.io) (MD editor)
+6. [Git-fork](https://git-fork.com)
+7. 1password (MAS)
+8. Slack (MAS)
+9. [Sequel Pro](https://www.sequelpro.com)
+10. [MySQL](https://dev.mysql.com/downloads/mysql/)
 
 
 
