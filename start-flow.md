@@ -10,7 +10,7 @@
    5. ``pbcopy < ~/.ssh/id_rsa.pub`` to put the key in the clipboard (if using Fork, there's no need to copy, next step will make it unnecessary)
    6. on Fork, gitlab section, SSH keys tab, Add SSH keys (it should have already selected the public key)
 
-2. on Fork, clone gitlab repos into the ``localhost`` folder
+2. on Fork, clone gitlab repos into the ``Sites`` folder
 
 3. open codekit, and setup the settings for the new projects ( File > Edit Defaults For New Projects - cmd + D )
 
