@@ -1,21 +1,4 @@
-update homebrew and install node (npm is inside)
-```
-brew update
-brew install node
-```
-
-make sure it's installed - check versions
-```
-node -v
-npm -v
-```
-
-install grunt command line interface globally
-```
-npm install -g grunt-cli
-```
-
-**(now, inside the project folder)**
+**(inside the project folder)**
 
 initialize npm to create jackage.json
 ``npm init``
