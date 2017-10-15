@@ -200,6 +200,23 @@ edit the ``vhosts`` - ``sudo nano /etc/apache2/extra/httpd-vhosts.conf`` - add t
 
 
 
+update homebrew and install node (npm is inside)
+```
+brew update
+brew install node
+```
+
+make sure it's installed - check versions
+```
+node -v
+npm -v
+```
+
+install grunt command line interface globally
+```
+npm install -g grunt-cli
+```
+
 
 
 
