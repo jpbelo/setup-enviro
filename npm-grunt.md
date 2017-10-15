@@ -32,7 +32,7 @@ module.exports = function (grunt) {
         tasks: ['concat:js'],
       },
       styles: {
-        files: ['assets/styles/*.styl'],
+        files: ['assets/**/*.styl'],
         tasks: ['stylus'],
       },
     },
