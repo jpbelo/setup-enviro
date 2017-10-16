@@ -13,6 +13,8 @@
 9. highligted-selected (by richrace)
 10. stylus-language (by callisto2410)
 11. sublime-style-column-selection (by bigfive - for that vertical select)
+12. editorconfig (by sindresorhus)
+
 
 ## Honorable mentions
 1. ask-stack (by Chris911) - stack overflow inside atom
