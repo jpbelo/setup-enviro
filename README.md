@@ -1,5 +1,7 @@
 # setup environment for web development
 
+
+
 ## Dev Apps
 
 1. [Dropbox](https://www.dropbox.com) (start with because the sync takes time)
@@ -15,6 +17,16 @@
 
 
 
+## Terminal tools
+
+1. Git
+2. [Nodejs and NPM](https://nodejs.org/en/)
+3. [Grunt](https://gruntjs.com)
+4. [Composer](https://getcomposer.org)
+5. [Heroku](https://heroku.com)
+
+
+
 ## Design Apps
 
 1. Photoshop
@@ -22,16 +34,6 @@
 3. [Sketch](https://www.sketchapp.com)
 4. [Zeplin](https://zeplin.io)
 
-
-
-## Terminal tools
-
-1. Git
-2. [Yarn](https://yarnpkg.com) (to replace bower)
-3. [Nodejs and NPM](https://nodejs.org/en/)
-4. [Grunt](https://gruntjs.com)
-5. [Yeoman](http://yeoman.io)
-6. [Heroku](https://heroku.com)
 
 
 ## General Utilities
