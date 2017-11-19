@@ -15,6 +15,7 @@
 9. [Sequel Pro](https://www.sequelpro.com)
 10. [MySQL](https://dev.mysql.com/downloads/mysql/)
 11. [Cocoa rest client](https://mmattozzi.github.io/cocoa-rest-client/)
+12. [Expo](https://expo.io)
 
 
 ## Terminal tools
