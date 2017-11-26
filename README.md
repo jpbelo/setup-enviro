@@ -50,7 +50,7 @@
 9. [Transmission](https://transmissionbt.com)
 10. AppZapper
 11. Hocus Pocus
-
+12. [Etcher](https://etcher.io/) - write images to sd
 
 
 ## In browser
