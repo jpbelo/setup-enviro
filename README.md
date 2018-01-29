@@ -24,7 +24,6 @@
 2. [Nodejs and NPM](https://nodejs.org/en/)
 3. [Grunt](https://gruntjs.com)
 4. [Composer](https://getcomposer.org)
-5. [Heroku](https://heroku.com)
 
 
 
@@ -51,11 +50,12 @@
 10. AppZapper
 11. Hocus Pocus
 12. [Etcher](https://etcher.io/) - write images to sd
+13. [Trello](https://trello.com)
+
 
 
 ## In browser
 
 1. [Gitlab](https://gitlab.com)
-2. [Trello](https://trello.com)
 
 
