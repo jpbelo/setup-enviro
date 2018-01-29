@@ -1,4 +1,4 @@
-1. new folder ``Sites`` on the user root level
+1. new folder ``Sites`` on the user root level - ``mkdir ~/Sites``
 
 
 1. setup Fork for Gitlab
@@ -12,18 +12,6 @@
 
 2. on Fork, clone gitlab repos into the ``Sites`` folder
 
-3. open codekit, and setup the settings for the new projects ( File > Edit Defaults For New Projects - cmd + D )
-
-   1. Project settings
-      1. browser refreshing - external server options, turn switch ``on`` and ``http://localhost /~username`` in the address field
-      2. build process, enable ``on``
-   2. languages
-      1. javascript
-         1. ESLint
-         2. minify output with UglifyJS ``off``
-      2. CSS
-         1. style ``compact``
-
 4. install Homebrew - ``ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`` ( use ``brew up`` to update)
 
 5. install dnsmasq - ``brew install dnsmasq``
@@ -32,7 +20,7 @@
 
    1. ``cd /etc/apache2/users``
 
-   2. ``sudo nano username.conf`` - replace username with your computer short name 
+   2. ``sudo nano username.conf`` - replace all mentions of ``username`` with your computer short name 
 
    3. ```
       <Directory "/Users/username/Sites/">
@@ -54,7 +42,7 @@
       5. ``LoadModule rewrite_module libexec/apache2/mod_rewrite.so``
    2. also to get php running uncomment
       1. ``LoadModule php5_module libexec/apache2/libphp5.so``
-      2. or, in my case ``LoadModule php7_module libexec/apache2/libphp7.so``
+      2. or, in case you are on High Sierra or latter, ``LoadModule php7_module libexec/apache2/libphp7.so``
    3. also uncomment this configuration file:
       1. ``Include /private/etc/apache2/extra/httpd-userdir.conf``
 
@@ -111,7 +99,7 @@
 
 ``sudo mkdir /etc/resolver``
 
-``sudo nano /etc/resolver/dev``
+``sudo nano /etc/resolver/test``
 
 add ``nameserver 127.0.0.1``
 
@@ -121,7 +109,7 @@ add ``nameserver 127.0.0.1``
 
 ``sudo nano /usr/local/etc/dnsmasq.conf``
 
-at the end paste ``address=/.dev/127.0.0.1``
+at the end paste ``address=/.test/127.0.0.1``
 
 
 
@@ -133,7 +121,7 @@ start dnsmasq automatically
 
 
 
-Test - ``dig foo.dev @127.0.0.1 ``  ou  ``ping foo.dev``
+Test - ``dig foo.test @127.0.0.1 ``  ou  ``ping foo.test``
 
 
 
@@ -141,7 +129,7 @@ Test - ``dig foo.dev @127.0.0.1 ``  ou  ``ping foo.dev``
 
 
 
-Now to set up Apache to handle anything with a .dev suffix from a matching directory from my Sites dir. 
+Now to make Apache handle any request from a .test TLD and match it to the corresponding directory in the Sites dir. 
 
 
 
@@ -173,7 +161,7 @@ comment
 
 
 
-edit the ``vhosts`` - ``sudo nano /etc/apache2/extra/httpd-vhosts.conf`` - add this and change example with the username
+edit the ``vhosts`` - ``sudo nano /etc/apache2/extra/httpd-vhosts.conf`` - add this and change username with your username
 
 ```
 <Directory "/Users/username/Sites/">
@@ -183,8 +171,8 @@ edit the ``vhosts`` - ``sudo nano /etc/apache2/extra/httpd-vhosts.conf`` - add t
 </Directory>
 
 <VirtualHost *:80>
-  ServerName local.dev
-  ServerAlias *.dev
+  ServerName local.test
+  ServerAlias *.test
   UseCanonicalName off
   VirtualDocumentRoot /Users/username/Sites/%1/
 </VirtualHost>
@@ -238,7 +226,7 @@ https://stackoverflow.com/questions/38037448/apache-config-virtualdocumentroot
 
 
 
-
+## Notes:
 ```
 sudo apachectl start
 sudo apachectl stop
