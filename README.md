@@ -62,4 +62,5 @@
 ### Usefull notes
 
 1. point terminal ``edit`` to use sublime as text editor
+
     ``alias edit="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"``
