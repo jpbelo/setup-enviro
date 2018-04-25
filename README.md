@@ -16,6 +16,8 @@
 10. [MySQL](https://dev.mysql.com/downloads/mysql/)
 11. [Cocoa rest client](https://mmattozzi.github.io/cocoa-rest-client/)
 12. [Expo](https://expo.io)
+13. Xcode
+14. Android Studio
 
 
 ## Terminal tools
