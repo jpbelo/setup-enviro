@@ -1,3 +1,6 @@
+##config localhost with .test TLD, keys for gitlab and github
+
+
 1. new folder ``Sites`` on the user root level - ``mkdir ~/Sites``
 
 
@@ -188,6 +191,8 @@ edit the ``vhosts`` - ``sudo nano /etc/apache2/extra/httpd-vhosts.conf`` - add t
 
 
 
+
+
 update homebrew and install node (npm is inside)
 ```
 brew update
@@ -206,6 +211,22 @@ npm install -g grunt-cli
 ```
 
 
+
+```npm -g list --depth=0
+
+├── browserify@14.5.0
+├── create-react-app@1.5.2
+├── create-react-native-app@1.0.0
+├── exp@47.4.4
+├── grunt-cli@1.2.0
+├── MinderaGP@0.0.1 -> /Users/joaobelo/Sites/mindera-gp/MinderaGP
+├── npm@5.8.0
+├── react-devtools@3.2.1
+├── react-native-cli@2.0.1
+├── react-native-git-upgrade@0.2.7
+├── rollup@0.51.8
+├── stylus@0.54.5
+└── yarn@1.6.0```
 
 
 
