@@ -1,4 +1,4 @@
-##config localhost with .test TLD, keys for gitlab and github
+## config localhost with .test TLD, keys for gitlab and github
 
 
 1. new folder ``Sites`` on the user root level - ``mkdir ~/Sites``
