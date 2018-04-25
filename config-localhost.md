@@ -220,7 +220,6 @@ npm -g list --depth=0
 ├── create-react-native-app@1.0.0
 ├── exp@47.4.4
 ├── grunt-cli@1.2.0
-├── MinderaGP@0.0.1 -> /Users/joaobelo/Sites/mindera-gp/MinderaGP
 ├── npm@5.8.0
 ├── react-devtools@3.2.1
 ├── react-native-cli@2.0.1
