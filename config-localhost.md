@@ -212,7 +212,8 @@ npm install -g grunt-cli
 
 
 
-```npm -g list --depth=0
+```
+npm -g list --depth=0
 
 ├── browserify@14.5.0
 ├── create-react-app@1.5.2
@@ -226,7 +227,8 @@ npm install -g grunt-cli
 ├── react-native-git-upgrade@0.2.7
 ├── rollup@0.51.8
 ├── stylus@0.54.5
-└── yarn@1.6.0```
+└── yarn@1.6.0
+```
 
 
 
