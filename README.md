@@ -2,62 +2,88 @@
 
 
 
-## Dev Apps
+## Coding
 
-1. [Dropbox](https://www.dropbox.com) (start with because the sync takes time)
-2. Transmit (MAS)
-3. [Atom](https://atom.io)
-4. [Sublime Text](https://www.sublimetext.com)
-5. [Typora](https://typora.io) (MD editor)
-6. [Git-fork](https://git-fork.com)
-7. 1password (MAS)
-8. Slack (MAS)
-9. [Sequel Pro](https://www.sequelpro.com)
-10. [MySQL](https://dev.mysql.com/downloads/mysql/)
-11. [Cocoa rest client](https://mmattozzi.github.io/cocoa-rest-client/)
-12. [Expo](https://expo.io)
-13. Xcode
-14. Android Studio
+[Visual Studio Code](https://code.visualstudio.com)
 
+[Sublime Text](https://www.sublimetext.com)
 
-## Terminal tools
+[MySQL](https://dev.mysql.com/downloads/mysql/)
 
-1. Git
-2. [Nodejs and NPM](https://nodejs.org/en/)
-3. [Grunt](https://gruntjs.com)
-4. [Composer](https://getcomposer.org)
+Xcode
+
+Android Studio
+
+Node (install over nvm)
+
+[iTerm2](https://www.iterm2.com/)
 
 
 
-## Design Apps
+## Coding Utilities
 
-1. Photoshop
-2. Illustrator
-3. [Sketch](https://www.sketchapp.com)
-4. [Zeplin](https://zeplin.io)
+Transmit (MAS)
 
+[Postman](https://www.getpostman.com)
 
+[Docker](https://www.docker.com/)
 
-## General Utilities
+[Charles](https://www.charlesproxy.com/)
 
-1. [Spectacle](https://www.spectacleapp.com)
-2. CopyClip 2 (MAS)
-3. Caffeine
-4. [MagicPrefs](http://magicprefs.com)
-5. Shazam (MAS)
-6. [Spotify](https://www.spotify.com)
-7. [Tunnelblick](https://tunnelblick.net)
-8. [VirtualBox](https://www.virtualbox.org)
-9. [Transmission](https://transmissionbt.com)
-10. AppZapper
-11. Hocus Pocus
-12. [Etcher](https://etcher.io/) - write images to sd
-13. [Trello](https://trello.com)
+[Sequel Pro](https://www.sequelpro.com)
+
+[Git-fork](https://git-fork.com)
+
+[Typora](https://typora.io) (MD editor)
+
+Bear (MAS)
 
 
 
-## In browser
+## Design
 
-1. [Gitlab](https://gitlab.com)
+Photoshop
+
+Illustrator
+
+[Sketch](https://www.sketchapp.com)
+
+[Zeplin](https://zeplin.io)
 
 
+
+## General
+
+[Dropbox](https://www.dropbox.com) (start with because the sync takes time)
+
+1password (MAS)
+
+Slack (MAS)
+
+CopyClip 2 (MAS)
+
+Caffeine
+
+[Etcher](https://etcher.io/) - write images to sd
+
+[Zoom](https://zoom.us/)
+
+
+
+### honorable mentions:
+
+[Spectacle](https://www.spectacleapp.com)
+
+[MagicPrefs](http://magicprefs.com)
+
+Shazam (MAS)
+
+[Tunnelblick](https://tunnelblick.net)
+
+[VirtualBox](https://www.virtualbox.org)
+
+[Transmission](https://transmissionbt.com)
+
+AppZapper
+
+[Trello
