@@ -9,6 +9,7 @@ Docker (peterjausovec.vscode-docker) - Microsoft
 
 GitLens — Git supercharged (eamodio.gitlens) - Eric Amodio
 
+[FiraCode-Retina](https://github.com/tonsky/FiraCode/blob/master/distr/ttf/FiraCode-Retina.ttf)
 
 
 ## User Settings
