@@ -14,6 +14,8 @@ Xcode
 
 Android Studio
 
+[NVM](https://github.com/creationix/nvm)
+
 Node (install over nvm)
 
 [iTerm2](https://www.iterm2.com/) ([setup](./iterm2.md))
