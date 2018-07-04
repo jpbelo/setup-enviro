@@ -4,7 +4,7 @@
 
 ## Coding
 
-[Visual Studio Code](https://code.visualstudio.com)
+[Visual Studio Code](https://code.visualstudio.com) ( [setup](./visual-studio-code.md) )
 
 [Sublime Text](https://www.sublimetext.com)
 
