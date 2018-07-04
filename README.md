@@ -16,7 +16,7 @@ Android Studio
 
 Node (install over nvm)
 
-[iTerm2](https://www.iterm2.com/)
+[iTerm2](https://www.iterm2.com/) ([setup](./iterm2.md))
 
 
 
