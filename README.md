@@ -1,4 +1,4 @@
-# setup environment for web development
+# my stack
 
 
 
