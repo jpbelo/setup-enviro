@@ -6,9 +6,9 @@
 
 [Visual Studio Code](https://code.visualstudio.com) ( [setup](./visual-studio-code.md) )
 
-[Sublime Text](https://www.sublimetext.com)
+[IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
-[MySQL](https://dev.mysql.com/downloads/mysql/)
+[Sublime Text](https://www.sublimetext.com)
 
 Xcode
 
@@ -20,9 +20,11 @@ Node (install over nvm)
 
 [iTerm2](https://www.iterm2.com/) ([setup](./iterm2.md))
 
+[MySQL](https://dev.mysql.com/downloads/mysql/)
 
 
-## Coding Utilities
+
+## Utilities
 
 Transmit (MAS)
 
@@ -88,4 +90,4 @@ Shazam (MAS)
 
 AppZapper
 
-[Trello
+Trello
