@@ -16,11 +16,8 @@ GitLens — Git supercharged (eamodio.gitlens) - Eric Amodio
 
 ```
 {
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
-    "gitlens.defaultDateStyle": "absolute",
-    "gitlens.defaultDateFormat": "YYYY MM D - HH:mm:ss",
+    "languageStylus.useSeparator": false,
+    "window.zoomLevel": 0,
     "workbench.startupEditor": "newUntitledFile",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -31,6 +28,7 @@ GitLens — Git supercharged (eamodio.gitlens) - Eric Amodio
                     "keyword",
                     "constant",
                     "storage.modifier",
+                    "constant.numeric.css",
                     "storage.type.class.js"
                 ],
                 "settings": {
@@ -41,7 +39,6 @@ GitLens — Git supercharged (eamodio.gitlens) - Eric Amodio
                 "scope": [
                     "invalid",
                     "keyword.operator",
-                    "constant.numeric.css",
                     "keyword.other.unit.px.css",
                     "constant.numeric.decimal.js",
                     "constant.numeric.json"
@@ -55,9 +52,17 @@ GitLens — Git supercharged (eamodio.gitlens) - Eric Amodio
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
-    "editor.detectIndentation": false,
     "editor.tabSize": 2,
-    "window.zoomLevel": 0
-  }
+    "editor.detectIndentation": false,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.defaultDateStyle": "absolute",
+    "gitlens.defaultDateFormat": "YYYY-MM-DD, HH:mm:ss",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true
+}
 
 ```
