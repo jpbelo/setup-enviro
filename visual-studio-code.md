@@ -9,6 +9,8 @@ Docker (peterjausovec.vscode-docker) - Microsoft
 
 GitLens — Git supercharged (eamodio.gitlens) - Eric Amodio
 
+ES7 React/Redux/GraphQL/React-Native snippets - dsznajder
+
 [FiraCode-Retina](https://github.com/tonsky/FiraCode/blob/master/distr/ttf/FiraCode-Retina.ttf)
 
 
