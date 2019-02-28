@@ -1,5 +1,4 @@
-# my stack
-
+# my tool stack
 
 
 ## Coding
@@ -16,12 +15,9 @@ Android Studio
 
 [NVM](https://github.com/creationix/nvm)
 
-Node (install over nvm)
-
 [iTerm2](https://www.iterm2.com/) ([setup](./iterm2.md))
 
 [MySQL](https://dev.mysql.com/downloads/mysql/)
-
 
 
 ## Utilities
@@ -43,7 +39,6 @@ Transmit (MAS)
 Bear (MAS)
 
 
-
 ## Design
 
 Photoshop
@@ -55,23 +50,25 @@ Illustrator
 [Zeplin](https://zeplin.io)
 
 
-
 ## General
 
-[Dropbox](https://www.dropbox.com) (start with because the sync takes time)
+[Dropbox](https://www.dropbox.com)
+
+[DropShare 5](https://dropshare.app)
 
 1password (MAS)
 
 Slack (MAS)
 
+Buffet (MAS)
+
 CopyClip 2 (MAS)
 
 Caffeine
 
-[Etcher](https://etcher.io/) - write images to sd
+[Etcher](https://etcher.io/)
 
 [Zoom](https://zoom.us/)
-
 
 
 ### honorable mentions:
@@ -79,8 +76,6 @@ Caffeine
 [Spectacle](https://www.spectacleapp.com)
 
 [MagicPrefs](http://magicprefs.com)
-
-Shazam (MAS)
 
 [Tunnelblick](https://tunnelblick.net)
 
