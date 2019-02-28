@@ -18,6 +18,8 @@ Vetur - Pine Wu
 
 language stylus - sysoev
 
+Cucumber (Gherkin) Full Support - Alexander Krechik
+
 GitLens — Git supercharged (eamodio.gitlens) - Eric Amodio
 
 VS Live Share - Microsoft
