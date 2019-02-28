@@ -1,17 +1,30 @@
 # Visual Studio Code
 
 
+## Type
+
+[FiraCode-Retina](https://github.com/tonsky/FiraCode/blob/master/distr/ttf/FiraCode-Retina.ttf)
+
+
 ## Extensions
+
+ESLint - Dirk Baeumer
+
+ES7 React/Redux/GraphQL/React-Native snippets - dsznajder
+
+React Native Tools - Visual Studio Mobile Tools
+
+Vetur - Pine Wu
+
+language stylus - sysoev
+
+GitLens — Git supercharged (eamodio.gitlens) - Eric Amodio
+
+VS Live Share - Microsoft
 
 Debugger for Chrome (msjsdiag.debugger-for-chrome) - Microsoft
 
 Docker (peterjausovec.vscode-docker) - Microsoft
-
-GitLens — Git supercharged (eamodio.gitlens) - Eric Amodio
-
-ES7 React/Redux/GraphQL/React-Native snippets - dsznajder
-
-[FiraCode-Retina](https://github.com/tonsky/FiraCode/blob/master/distr/ttf/FiraCode-Retina.ttf)
 
 
 ## User Settings
@@ -64,7 +77,8 @@ ES7 React/Redux/GraphQL/React-Native snippets - dsznajder
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
-    "emmet.triggerExpansionOnTab": true
+    "emmet.triggerExpansionOnTab": true,
+    "eslint.packageManager": "yarn"
 }
 
 ```
