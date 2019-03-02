@@ -28,6 +28,18 @@ Debugger for Chrome (msjsdiag.debugger-for-chrome) - Microsoft
 
 Docker (peterjausovec.vscode-docker) - Microsoft
 
+Auto Rename Tag - Jun Han
+
+Highlight Matching Tag - vincasit
+
+indent-rainbow - oderwat
+
+REST Client - Huachao Mao
+
+Settings Sync - Shan Khan
+
+TODO Highlight - Wayou Liu
+
 
 ## User Settings
 
@@ -80,7 +92,13 @@ Docker (peterjausovec.vscode-docker) - Microsoft
         "javascript": "javascriptreact"
     },
     "emmet.triggerExpansionOnTab": true,
-    "eslint.packageManager": "yarn"
+    "eslint.packageManager": "yarn",
+        "sync.gist": "-------------------",
+    "indentRainbow.colors": [
+      "#00000030",
+      "#00000015",
+      "#ffffff05",
+    ]
 }
 
 ```
