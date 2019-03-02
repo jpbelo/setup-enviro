@@ -34,6 +34,8 @@ Highlight Matching Tag - vincasit
 
 indent-rainbow - oderwat
 
+Rainbow Brackets - 2gua
+
 REST Client - Huachao Mao
 
 Settings Sync - Shan Khan
