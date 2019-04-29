@@ -13,7 +13,7 @@ Xcode
 
 Android Studio
 
-[NVM](https://github.com/creationix/nvm) ( [npm packages](./npm.md) )
+[NVM](https://github.com/creationix/nvm) ( [npm -g ls](./npm.md) )
 
 [iTerm2](https://www.iterm2.com/) ([setup](./iterm2.md))
 
