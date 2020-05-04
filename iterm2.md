@@ -1,5 +1,7 @@
 # iTerm2 + zsh + oh-my-zsh
 
+NOTE: since Catalina, zshell is the default shell on macos, so no need to install it.
+
 Dowload [Fura Code](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Retina/complete/Fura%20Code%20Retina%20Nerd%20Font%20Complete%20Mono.ttf)
 
 http://nerdfonts.com
