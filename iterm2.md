@@ -5,17 +5,16 @@ Dowload [Fura Code](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-
 http://nerdfonts.com
 
 
-install iTerm2 form [iterm2.com](https://www.iterm2.com)
+- install iTerm2 form [iterm2.com](https://www.iterm2.com)
+
+- install zshell and autocompletions
 
 ```
 brew install zsh zsh-completions
 zsh --version
 ```
 
-expected result: 5.1.1 or newer.
-
-
-
+(just to check it was installed)
 
 ### Sources:
 
