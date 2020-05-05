@@ -9,8 +9,9 @@ http://nerdfonts.com
 - install iTerm2 form [iterm2.com](https://www.iterm2.com)
 
 ```
-# install Homebrew
+# install Homebrew and yarn
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+brew install yarn
 
 # install oh-my-zshell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
