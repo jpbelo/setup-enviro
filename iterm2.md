@@ -1,4 +1,4 @@
-# iTerm2 + zsh + oh-my-zsh
+# CLI tools
 
 NOTE: since Catalina, zshell is the default shell on macos, so no need to install it. (`echo $SHELL` should return `/bin/zsh` now)
 
