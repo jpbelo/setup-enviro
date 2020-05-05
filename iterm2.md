@@ -1,22 +1,98 @@
 # iTerm2 + zsh + oh-my-zsh
 
-NOTE: since Catalina, zshell is the default shell on macos, so no need to install it.
+NOTE: since Catalina, zshell is the default shell on macos, so no need to install it. (`echo $SHELL` should return `/bin/zsh` now)
 
 Dowload [Fura Code](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Retina/complete/Fura%20Code%20Retina%20Nerd%20Font%20Complete%20Mono.ttf)
 
 http://nerdfonts.com
 
-
 - install iTerm2 form [iterm2.com](https://www.iterm2.com)
 
-- install zshell and autocompletions
-
 ```
-brew install zsh zsh-completions
-zsh --version
+# install Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+# install oh-my-zshell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# autosuggestions and auto completions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+
+
+# install spaceship theme and symlink to the themes folder
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 ```
 
-(just to check it was installed)
+Set the theme `ZSH_THEME="spaceship"` in the .zshrc file. And the costumize it.
+```
+SPACESHIP_PROMPT_PREFIXES_SHOW="false"
+SPACESHIP_PROMPT_SUFFIXES_SHOW="true"
+SPACESHIP_PROMPT_DEFAULT_SUFFIX=" · "
+SPACESHIP_CHAR_SYMBOL="\uf296 \uf0e7 "
+SPACESHIP_CHAR_COLOR_SUCCESS="green"
+SPACESHIP_CHAR_COLOR_FAILURE="red"
+SPACESHIP_CHAR_COLOR_SECONDARY="yellow"
+SPACESHIP_DIR_TRUNC=0
+SPACESHIP_USER_SHOW="true"
+SPACESHIP_TIME_SHOW="true"
+SPACESHIP_PROMPT_ORDER=(
+  time          # Time stampts section
+  user          # Username section
+  dir           # Current directory section
+  # host          # Hostname section
+  git           # Git section (git_branch + git_status)
+  # hg            # Mercurial section (hg_branch  + hg_status)
+  # package       # Package version
+  node          # Node.js section
+  # ruby          # Ruby section
+  # elixir        # Elixir section
+  # xcode         # Xcode section
+  # swift         # Swift section
+  # golang        # Go section
+  # php           # PHP section
+  # rust          # Rust section
+  # haskell       # Haskell Stack section
+  # julia         # Julia section
+  # docker        # Docker section
+  # aws           # Amazon Web Services section
+  # venv          # virtualenv section
+  # conda         # conda virtualenv section
+  # pyenv         # Pyenv section
+  # dotnet        # .NET section
+  # ember         # Ember.js section
+  # kubecontext   # Kubectl context section
+  exec_time     # Execution time
+  line_sep      # Line break
+  # battery       # Battery level and status
+  # vi_mode       # Vi-mode indicator
+  # jobs          # Background jobs indicator
+  # exit_code     # Exit code section
+  char          # Prompt character
+)
+
+plugins=(
+	git
+	zsh-completions
+	zsh-autosuggestions
+)
+
+# if needed, add this before the `source` line
+ZSH_DISABLE_COMPFIX=true
+
+# ...
+
+# some alias
+alias ws="webstorm"
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit"
+alias gpl="git pull"
+alias gps="git push"
+alias gl="git log"
+```
+
 
 ### Sources:
 
