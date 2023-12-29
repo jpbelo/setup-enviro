@@ -15,3 +15,17 @@ alias ls='ls -GFh'
 
 [[ -r ~/.bashrc ]] && . ~/.bashrc
 ```
+
+
+3. Webstorm with terminal command
+
+create `/usr/local/bin/ws` with
+```
+#!/bin/sh
+
+open -na "WebStorm.app" --args "$@"
+```
+to change permissions:
+`chmod +x /usr/local/bin/ws`
+
+- run "ws ." from the terminal
